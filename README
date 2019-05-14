@@ -1,0 +1,26 @@
+*********************************************************************
+    vi is a powerful text editor with origins in Linux. 
+
+    vi operated in two modes, Command mode and Insert mode. 
+    Command mode (also called Normal mode) - All keys pressed execute a command rather than adding text to the document. 
+
+    The Linux make utility works by reading and interpreting a Makefile.
+    Typically you run make by simply typing the following command at the shell
+    prompt.
+    
+                    make
+    
+    In this project, after you type 'make' at the shell prompt, it builds
+    TARGET specified in the Makefile.
+    After this process, if you type:
+                    
+                    './20171672'
+    
+    the program will run.
+
+    To delete the executable file and all the object files from the directory,
+    type:
+
+                    make clean
+
+********************************************************************
