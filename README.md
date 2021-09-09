@@ -82,4 +82,20 @@ To delete the executable file and all the object files from the directory, type:
 assemble 명령 이후 생성된 심볼 테이블을 내림차순으로 출력하여 보여 준다.
 
 
+## Loader Realted Commands
+### progaddr address
+    progaddr 4000
+프로그램 시작 주소를 지정한다.
+
+### load filenames
+    loader proga.obj progb.obj progc.obj
+오브젝트 파일을 읽어 링킹과 로딩을 한다.
+
+## Execution Related Commands
+### run
+프로그램을 실행한다.
+
+### bp
+breakpoint를 지정한다.
+
 
